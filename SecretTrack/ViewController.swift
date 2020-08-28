@@ -18,7 +18,7 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
         
         player = MPMusicPlayerController.systemMusicPlayer
         
-        /*
+        /* リピートしない時
         player.repeatMode = .none
         player.stop()
         */
